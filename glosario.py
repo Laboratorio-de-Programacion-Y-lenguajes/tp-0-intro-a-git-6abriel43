@@ -36,6 +36,8 @@ def glosario_inicial():
 # 2. Crea una función nueva siguiendo el ejemplo de abajo
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
+def definicion_orm():
+    print("ORM: Object Relational Mapping, técnica que permite interactuar con la base de datos mediante objetos en Python.")
 
 def agregar_definicion_alumno():
     """
@@ -49,6 +51,6 @@ def agregar_definicion_alumno():
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-
+    definicion_orm()
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
