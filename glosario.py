@@ -36,27 +36,13 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 def definicion_orm():
-    """
-    Muestra la definición del término ORM.
-    """
     termino = "ORM"
     definicion = "Object Relational Mapping. Técnica que permite interactuar con una base de datos mediante objetos en Python."
     print(f"[NUEVO] {termino}: {definicion}")
-
-def agregar_definicion_alumno():
-    """
-    Diccionario con términos base.
-    Los alumnos deben agregar nuevas funciones para extender este glosario.
-    """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
-    print(f"[NUEVO] {termino}: {definicion}")
-
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
     definicion_orm()
-    agregar_definicion_alumno()
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
